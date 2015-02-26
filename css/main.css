@@ -1,0 +1,92 @@
+html {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: #555555;
+}
+
+ul {
+	margin: 0;
+	padding: 10;
+	list-style: none;
+}
+
+#navbar ul {
+	float: right;
+}
+
+li {
+	display: inline;
+	padding: 8px;
+	cursor: pointer;
+}
+
+li:hover {
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+
+#content {
+	width: 100%;
+	text-align: center;
+}
+
+#logo {
+	width: 269px;
+	margin: 100px auto 25px auto;
+	display: block;
+}
+
+#searchMic {
+	height: 20px;
+	vertical-align: middle;
+	opacity: .35;
+	position: relative;
+	left: -25px;
+}
+
+input {
+	width: 572px;
+	margin-bottom: 15px;
+	border-color: #eeeeee;
+	border-width: 1px;
+	border-style: solid;
+	height: 28px;
+	padding-right: 25px;
+}
+input:hover,
+button:hover {
+	border-color: #cccccc;
+}
+
+button {
+	border-radius: 0;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #eeeeee;
+	padding: 5px;
+	margin: 5px;
+	cursor: pointer;
+	color: #555555;
+	font-weight: bold;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-top: 5px;
+	border-top: 1px solid #eeeeee;
+}
+
+#footer ul:nth-child(1) {
+	float: left;
+}
+
+#footer ul:nth-child(2) {
+	float: right;
+}
